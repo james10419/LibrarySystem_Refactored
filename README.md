@@ -27,7 +27,9 @@ Tech Stack: C++, STL(Vector only for memory holding)
 LibraryManager: 실제 Book 객체의 생성과 소멸을 담당 (Memory Owner).
 BST & Hash Table: 객체의 주소값(Book*)만 저장하여 메모리 중복 사용 방지 및 가벼운 인덱싱 구현.
 Result: 시스템 종료 시 Manager에서 일괄적으로 메모리를 해제하여 Memory Leak 방지.
+
 📂 Code Structure
+
 .
 ├── main.cpp            # Entry point & UI Loop
 ├── Book.h              # Data Domain
@@ -45,5 +47,4 @@ Result: 시스템 종료 시 Manager에서 일괄적으로 메모리를 해제�
 이 프로젝트를 통해 다음과 같은 엔지니어링 감각을 익혔습니다.
 자료구조의 Trade-off: 해시 테이블은 빠르지만 공간 복잡도가 높고, BST는 정렬이 되지만 트리의 균형이 중요하다는 점을 체감.
 Pointer & Memory Management: 이중 해제(Double Free) 오류를 디버깅하며 객체의 생명주기 관리의 중요성 학습.
-Refactoring: 스파게티 코드가 될 뻔한 로직을 '자료구조'와 '비즈니스 로직'으로 모듈화하며 유지보수성 향상.
 Created by [유영준]
