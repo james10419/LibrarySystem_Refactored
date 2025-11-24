@@ -32,9 +32,13 @@ Result: 시스템 종료 시 Manager에서 일괄적으로 메모리를 해제�
 
 .
 ├── main.cpp            # Entry point & UI Loop
+
 ├── Book.h              # Data Domain
+
 ├── HashTable.h         # ID Search Implementation (Chaining)
+
 ├── BST.h               # Title Search Implementation (Recursive)
+
 └── LibraryManager.h    # Facade Class handling logic
 
 
