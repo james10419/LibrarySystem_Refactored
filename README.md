@@ -30,7 +30,7 @@ Result: 시스템 종료 시 Manager에서 일괄적으로 메모리를 해제�
 
 📂 Code Structure
 
-.
+
 ├── main.cpp            # Entry point & UI Loop
 
 ├── Book.h              # Data Domain
